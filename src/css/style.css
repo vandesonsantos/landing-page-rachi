@@ -1,0 +1,29 @@
+.cabecalho{
+    height: 70px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo{
+    margin: 24px 135px;   
+}
+
+.menu{
+    font-family: 'Inter', sans-serif;
+    display: flex;
+    align-items: center;
+    margin-right: 135px;
+}
+
+.menu li{
+    font-size: 18px;
+    color: #6E7275;
+    font-weight: 500;
+    margin: 24px;
+}
+
+/* CONTEÚDO PRINCIPAL */
+.principal{
+    background-color: #EFF8FF;
+    height: 640px;
+}
