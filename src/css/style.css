@@ -44,6 +44,7 @@
     font-size: 48px;
     width: 574px;
     height: 180px;
+    word-break: break-word;
 }
 
 .titulo-botton input{
