@@ -4,6 +4,7 @@
     height: 70px;
     display: flex;
     justify-content: space-between;
+    flex-wrap: wrap;
 }
 
 .logo{
@@ -17,11 +18,12 @@
     margin-right: 135px;
 }
 
-.menu li{
+.menu li, a{
     font-size: 18px;
     color: #6E7275;
     font-weight: 500;
-    margin: 24px;
+    margin-left: 30px;
+    text-decoration: none;
 }
 
 /* CONTEÚDO PRINCIPAL */
@@ -29,6 +31,7 @@
     background-color: #EFF8FF;
     height: 640px;
     display: flex;
+    flex-wrap: wrap;
 }
 
 .titulo-botton{
@@ -41,4 +44,31 @@
     font-size: 48px;
     width: 574px;
     height: 180px;
+}
+
+.titulo-botton input{
+    margin-top: 50px;
+    width: 200px;
+    height: 56px;
+    border-radius: 50px;
+    background-color: #0F9AFE;
+    color: #EFF8FF;
+    border: 0;
+    padding: 16px 36px;
+    box-shadow: 1px 3px 4px rgba(19, 125, 224, 0.5);
+    cursor: pointer;
+}
+
+.imagem-working img{
+    margin: 70px 135px 0px 0px;
+}
+
+/* COMO FUNCIONA */
+.como-funciona h2{
+    text-align: center;
+}
+
+.informacoes{
+    display: flex;
+    justify-content: center;
 }
