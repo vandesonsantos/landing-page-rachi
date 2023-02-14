@@ -142,6 +142,89 @@
     width: 400px;
 }
 
+.title-plan{
+    display: flex;
+    justify-content: center;
+    font-size: 40px;
+    margin-top: 50px;
+    margin-bottom: 16px;
+}
+
+.title-container-our-plan{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.title-container-our-plan h2{
+    margin-top: 50px;
+    margin-bottom: 16px;
+    height: 18px;
+    font-size: 40px;
+}
+
+
+.title-container-our-plan p{
+    color: black;
+    width: 400px;
+    margin-bottom: 96px;
+}
+
+.card-container span{
+  color: #293145;
+}
+
+
+
+.card-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.card{
+    display: flex;
+    flex-direction: column;
+    width: 370px;
+    height: 471px;
+    background-color: #EFF8FF;
+    margin: 15px;
+    border-radius: 10px;
+    align-items: center;
+    
+}
+
+.emphasis{
+    margin-top: 14px;
+    display: flex;
+    background-color: #0F9AFE;
+    border-radius: 30px;
+    width: 165px;
+    height: 27px;
+    align-items: center;
+    justify-content: center;
+}
+
+.recommended span{
+    color: white;
+}
+
+.emphasis p{
+    margin: 0;
+}
+
+.recommended{
+    background-color: #293145;
+}
+
+.recommended h3,p,span{
+    color: white;
+    
+}
+.recommended h3{
+    font-size: 32px;
+    
+}
 @media (max-width: 1142px){
     .applogo {
         display: none;
