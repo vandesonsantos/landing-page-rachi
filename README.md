@@ -1,7 +1,7 @@
 # landing-page-rachi
 Landing Page Rachi - Desafios Codelândia
 
-[<img src="./\src\imagens/tela-readme.gif">](https://vandesonsantos.github.io/landing-page-rachi/)
+[<img src="./\src\imagens/tela02-readme.gif">](https://vandesonsantos.github.io/landing-page-rachi/)
 
 ## Tecnologias Utilizadas
 - HTML
