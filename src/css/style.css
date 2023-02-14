@@ -105,7 +105,7 @@
     color: #6E7275;
 }
 
-/* Luiz Guilherme */
+/* Nosso App */
 
 .our-app{
     display: flex;
@@ -140,4 +140,11 @@
 }
 .applogo img{
     width: 400px;
+}
+
+@media (max-width: 1142px){
+    .applogo {
+        display: none;
+    }
+
 }
