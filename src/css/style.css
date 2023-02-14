@@ -26,4 +26,5 @@
 .principal{
     background-color: #EFF8FF;
     height: 640px;
+    display: flex;
 }
