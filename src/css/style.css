@@ -44,7 +44,6 @@
     font-size: 48px;
     width: 574px;
     height: 180px;
-    word-break: break-word;
 }
 
 .titulo-botton input{
@@ -65,11 +64,43 @@
 }
 
 /* COMO FUNCIONA */
+.como-funciona{
+    height: 400px;
+    position: relative;
+}
+
 .como-funciona h2{
+    font-family: 'Sora', sans-serif;
+    color: #293145;
     text-align: center;
+    font-size: 40px;
+    font-weight: 600;
+    margin-top: 56px;
 }
 
 .informacoes{
+    width: 1000px;
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.conexoes, .gratuito, .compartilhamento{
+    text-align: center;
+}
+
+.conexoes, .gratuito, .compartilhamento, h3{
+    font-family: 'Sora', sans-serif;
+    color: #293145;
+    margin-top: 30px;
+    font-size: 18px;
+}
+
+.conexoes, .gratuito, .compartilhamento, p{
+    font-family: 'Inter', sans-serif;
+    margin-top: 16px;
+    color: #6E7275;
 }
