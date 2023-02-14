@@ -194,8 +194,46 @@
     
 }
 
+.card h3{
+    margin-top: 60px;
+    margin-bottom: 80px;
+}
+
+.value-style {
+    display: flex;
+    height: 70px;
+    width: 130px;
+    font-weight: bold;
+}
+
+.item1{
+    display: flex;
+    font-size: 20px;
+    align-items: start;
+}
+.item2{
+    display: flex;
+    font-size: 50px;
+    align-items: center;
+}
+.item3{
+    display: flex;
+    font-size: 26px;
+    align-items: end;
+}
+
+
+.text-card{
+    width: 300px;
+    height: 75px;
+    margin: 50px 35px 35px 35px;
+    color: 6E7275;
+    
+}
+
 .emphasis{
     margin-top: 14px;
+    margin-bottom: 32px;
     display: flex;
     background-color: #0F9AFE;
     border-radius: 30px;
@@ -209,6 +247,7 @@
     color: white;
 }
 
+
 .emphasis p{
     margin: 0;
 }
@@ -217,7 +256,17 @@
     background-color: #293145;
 }
 
-.recommended h3,p,span{
+.recommended p{
+    color: #DBDBDB;
+}
+
+.recommended h3{
+    color: white;
+    margin-top: 32px;
+    margin-bottom: 15px;
+}
+
+.recommended span{
     color: white;
     
 }
@@ -225,6 +274,21 @@
     font-size: 32px;
     
 }
+
+.card-container input{
+    margin-top: 0px;
+    margin-bottom: 64px;
+    width: 230px;
+    height: 43px;
+    border-radius: 50px;
+    background-color: #0F9AFE;
+    color: #EFF8FF;
+    border: 0;
+    padding: 16px 36px;
+    box-shadow: 1px 3px 4px rgba(19, 125, 224, 0.5);
+    cursor: pointer;
+}
+
 @media (max-width: 1142px){
     .applogo {
         display: none;
