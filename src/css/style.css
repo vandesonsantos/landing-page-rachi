@@ -109,14 +109,13 @@
     color: #6E7275;
 }
 
-@media(max-width:850px){
+@media(max-width:700px){
     .cabecalho{
         padding: 12px 0px 12px 24px;
     }
 
     .menu{
         display: none;
-        
     }
 
     .titulo-botton{
@@ -139,6 +138,17 @@
     .imagem-working img{
         width: 100%;
     }
+
+    .como-funciona h2{
+        font-size: 24px;
+        margin-top: 40px;
+    }
+
+    .informacoes{
+        gap: 50px;
+        margin-top: 30px;
+    }
+
 }
 
 
