@@ -8,7 +8,7 @@ Landing Page Rachi - Desafios Codelândia
 - CSS
 - JS
 
-## Quer utiliar a animação usada no projeto?
+## Quer utiliar o script usado no projeto?
 ```
 function escrita(tag) {
     tituloArray = tag.innerHTML.split('')
@@ -25,3 +25,9 @@ const titulo = document.querySelector('[data-titulo]')
 
 escrita(titulo);
 ```
+
+## Deploy Do Projeto
+- [GitHub Pages](https://vandesonsantos.github.io/landing-page-rachi/)
+
+
+**Divirta-se!** 🚀
