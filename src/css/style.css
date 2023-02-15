@@ -348,6 +348,10 @@
         
     }
 
+    .imagem-working img{
+        margin-top: 70px;
+    }
+
     .our-app{
         display: flex;
         flex-wrap: wrap;
