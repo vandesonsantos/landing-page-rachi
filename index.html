@@ -18,18 +18,22 @@
 <body>
     <header class="cabecalho">
         <div class="logo">
-            <img src="./src/imagens/logo.png" alt="Logo Rachi">
+            <a href="#">
+                <img src="./src/imagens/logo.png" alt="Logo Rachi">
+            </a>
         </div>
 
-        <ul class="menu">
-            <li><a href="#">Funcionalidades</a></li>
-            <li><a href="#">App</a></li>
-            <li><a href="#">Planos</a></li>
-            <li><a href="#">Contato</a></li>
-        </ul>
+        <nav>
+            <ul class="menu">
+                <li><a href="#">Funcionalidades</a></li>
+                <li><a href="#">App</a></li>
+                <li><a href="#">Planos</a></li>
+                <li><a href="#">Contato</a></li>
+            </ul>
+        </nav>
     </header>
 
-    <main class="conteudo-principal">
+    <main>
         <section class="conteudo">
 
             <div class="principal">
@@ -37,107 +41,101 @@
                     <h1>Rachi, <br> é tudo que cocê precisa em um só lugar.</h1>
                     <input type="button" value="Cadastrar-se">
                 </div>
-
+                
                 <div class="imagem-working">
-                    <img src="./src/imagens/working-from-anywhere-rafiki-1.png" alt="">
+                    <img src="./src/imagens/working-from.png" alt="Garoto com computador">
                 </div>
             </div>
-            
         </section>
 
         <section class="como-funciona">
             <h2>Como funciona</h2>
 
-            <div class="informacoes">
-                <div class="conexoes">
-                    <img src="./src/imagens/conexoes.png" alt="icone">
+            <div>
+                <div class="informacoes">
+                    <div class="conexoes">
+                        <img src="./src/imagens/conexoes.png" alt="icone">
+                        <h3>Crie conexões</h3>
+                        <p>Lorem, ipsum dolor sit amet consectetur.</p>
+                    </div>
 
-                    <h3>Crie conexões</h3>
+                    <div class="gratuito">
+                        <img src="./src/imagens/gratuito.png" alt="icone">
+                        <h3>100% gratuito</h3>
+                        <p>Lorem, ipsum dolor sit amet consectetur.</p>
+                    </div>
 
-                    <p>Lorem, ipsum dolor sit amet consectetur.</p>
+                    <div class="compartilhamento">
+                        <img src="./src/imagens/compartilhamentos.png" alt="icone">
+                        <h3>Compartilhamento</h3>
+                
+                        <p>Lorem, ipsum dolor sit amet consectetur.</p>
+                    </div>
                 </div>
+            </div>
+        </section>
 
-                <div class="gratuito">
-                    <img src="./src/imagens/gratuito.png" alt="icone">
-
-                    <h3>100% gratuito</h3>
-
-                    <p>Lorem, ipsum dolor sit amet consectetur.</p>
+        <section class="our-app">
+            <div> 
+                <h3>Baixe nosso app para desfrutar mais</h3>  
+                    <div class="descriptions-app">
+                        <p>Amet in elementum nulla scelerisque dui, egestas at. Elit consectetur turpis elementum amet vitae et etiam nec. Varius volutpat hac adipiscing tincidunt pretium.</p>
+                    </div>
+                <div class="social-div"> 
+                    <a href="#"><img class="social" src="./src/imagens/GooglePlay.png" alt="GooglePlay"></a>
+                    <a href="#"><img class="social" src="./src/imagens/AppStore.png" alt="AppStore"></a>
                 </div>
-
-                <div class="compartilhamento">
-                    <img src="./src/imagens/compartilhamentos.png" alt="icone">
-
-                    <h3>Compartilhamento</h3>
-                    
-                    <p>Lorem, ipsum dolor sit amet consectetur.</p>
+            </div>
+    
+            <div class="applogo">
+                <img src="./src/imagens/app.png" alt="logo">
+            </div>
+        </section>
+    
+        <section>
+            <div class="title-container-our-plan">
+                <h2>Nossos Plano</h2>
+                <div>
+                    <p class="subtitle-plan">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec lacinia mi quis euismod ultrices.</p>
+                </div>
+            </div>
+            <div class="card-container">
+                <div class="card">
+                    <h3>Bronze</h3>
+                    <div class="value-style">
+                        <span class="item1">R$</span>
+                        <span class="item2">28</span>
+                        <span class="item3">/mês</span>
+                    </div>
+                    <p class="text-card">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec lacinia mi quis euismod ultrices.</p>
+                    <input class="btn" type="button" value="Assinar">
+                </div>
+                <div class="card recommended">
+                    <h3>Prata</h3>
+                    <div class="emphasis"><p>preferido</p></div>
+                    <div class="value-style">
+                        <span class="item1">R$</span>
+                        <span class="item2">57</span>
+                        <span class="item3">/mês</span>
+                    </div>
+                    <p class="text-card">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec lacinia mi quis euismod ultrices.</p>
+                    <input type="button" value="Assinar">
+                </div>
+                <div class="card">
+                    <h3>Ouro</h3>
+                    <div class="value-style">
+                        <span class="item1">R$</span>
+                        <span class="item2">94</span>
+                        <span class="item3">/mês</span>
+                    </div>
+                    <p class="text-card">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec lacinia mi quis euismod ultrices.</p>
+                    <input type="button" value="Assinar">
                 </div>
             </div>
 
-            </section>
-
-            <section class="our-app">
-                <div> 
-                    <h3>Baixe nosso app para desfrutar mais</h3>  
-                        <div class="descriptions-app">
-                            <p>Amet in elementum nulla scelerisque dui, egestas at. Elit consectetur turpis elementum amet vitae et etiam nec. Varius volutpat hac adipiscing tincidunt pretium.</p>
-                        </div>
-                    <div class="social-div"> 
-                        <a href="#"><img class="social" src="./src/imagens/GooglePlay.png" alt="GooglePlay"></a>
-                        <a href="#"><img class="social" src="./src/imagens/AppStore.png" alt="AppStore"></a>
-                    </div>
-                </div>
-        
-                <div class="applogo">
-                    <img src="./src/imagens/app.png" alt="logo">
-                </div>
-            </section>
-            <section>
-                <div class="title-container-our-plan">
-                    <h2>Nossos Plano</h2>
-                    <div>
-                        <p class="subtitle-plan">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec lacinia mi quis euismod ultrices.</p>
-                    </div>
-                </div>
-                <div class="card-container">
-                    <div class="card">
-                        <h3>Bronze</h3>
-                        <div class="value-style">
-                            <span class="item1">R$</span>
-                            <span class="item2">28</span>
-                            <span class="item3">/mês</span>
-                        </div>
-                        <p class="text-card">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec lacinia mi quis euismod ultrices.</p>
-                        <input class="btn" type="button" value="Assinar">
-                    </div>
-                    <div class="card recommended">
-                        <h3>Prata</h3>
-                        <div class="emphasis"><p>preferido</p></div>
-                        <div class="value-style">
-                            <span class="item1">R$</span>
-                            <span class="item2">57</span>
-                            <span class="item3">/mês</span>
-                        </div>
-                        <p class="text-card">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec lacinia mi quis euismod ultrices.</p>
-                        <input type="button" value="Assinar">
-                    </div>
-                    <div class="card">
-                        <h3>Ouro</h3>
-                        <div class="value-style">
-                            <span class="item1">R$</span>
-                            <span class="item2">94</span>
-                            <span class="item3">/mês</span>
-                        </div>
-                        <p class="text-card">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec lacinia mi quis euismod ultrices.</p>
-                        <input type="button" value="Assinar">
-                    </div>
-                </div>
-
-            </section>
+        </section>
     
     
-
-
         
     </main>
 

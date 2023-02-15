@@ -1,35 +1,31 @@
 @import url('https://fonts.googleapis.com/css2?family=Sora:wght@100;200;300;400;500;600;800&display=swap');
 
 .cabecalho{
-    height: 70px;
     display: flex;
     justify-content: space-between;
+    align-items: center;
+    padding: 18px 135px 18px 135px;
+    background-color: #ffffff;
     flex-wrap: wrap;
 }
 
-.logo{
-    margin: 24px 135px;   
-}
-
 .menu{
-    font-family: 'Inter', sans-serif;
     display: flex;
-    align-items: center;
-    margin-right: 135px;
 }
 
-.menu li, a{
+.menu li a{
+    font-family: 'Inter', sans-serif;
     font-size: 18px;
     color: #6E7275;
     font-weight: 500;
     margin-left: 30px;
-    text-decoration: none;
 }
 
 /* CONTEÚDO PRINCIPAL */
-.principal{
+.conteudo{
     background-color: #EFF8FF;
-    height: 640px;
+}
+.principal{
     display: flex;
     flex-wrap: wrap;
 }
@@ -42,7 +38,7 @@
     font-family: 'Sora', sans-serif;
     font-weight: 600;
     font-size: 48px;
-    width: 574px;
+    width: 575px;
     height: 180px;
 }
 
@@ -64,11 +60,6 @@
 }
 
 /* COMO FUNCIONA */
-.como-funciona{
-    height: 400px;
-    position: relative;
-}
-
 .como-funciona h2{
     font-family: 'Sora', sans-serif;
     color: #293145;
@@ -79,13 +70,23 @@
 }
 
 .informacoes{
-    width: 1000px;
     display: flex;
-    justify-content: space-between;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+    justify-content: center;
+    margin: 80px 0px 80px 0px;
+    gap: 100px;
+    flex-wrap: wrap;
+}
+
+.conexoes{
+    width: 210px;
+}
+
+.gratuito{
+    width: 257px;
+}
+
+.compartilhamento{
+    width: 257px;
 }
 
 .conexoes, .gratuito, .compartilhamento{
@@ -97,13 +98,49 @@
     color: #293145;
     margin-top: 30px;
     font-size: 18px;
+    font-weight: 600;
 }
 
 .conexoes, .gratuito, .compartilhamento, p{
     font-family: 'Inter', sans-serif;
     margin-top: 16px;
+    font-size: 16px;
+    font-weight: 400;
     color: #6E7275;
 }
+
+@media(max-width:850px){
+    .cabecalho{
+        padding: 12px 0px 12px 24px;
+    }
+
+    .menu{
+        display: none;
+        
+    }
+
+    .titulo-botton{
+        margin: 41px 0px 0px 24px;
+    }
+
+    .titulo-botton h1{
+        font-size: 24px;
+        width: 287px;
+        height: 90px;
+    }
+
+    .titulo-botton input{
+        width: 144px;
+        height: 32px;
+        margin-top: 16px;
+        padding: 8px 16px;
+    }
+
+    .imagem-working img{
+        width: 100%;
+    }
+}
+
 
 /* Nosso App */
 
