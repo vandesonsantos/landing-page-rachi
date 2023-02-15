@@ -293,5 +293,43 @@
     .applogo {
         display: none;
     }
+    .social-div{
+        display: flex;
+        margin: 40px;
+        justify-content: center;
+    
+        
+    }
 
+    .our-app{
+        display: flex;
+        flex-wrap: wrap;
+        background-color: #EFF8FF;
+        justify-content: center;
+       
+       
+    }
+    .our-app h3{
+        width: 350px;
+        font-size: 32px;
+        margin-top: 117px;
+        margin: 0 auto;
+        margin-bottom: 20px;
+        text-align: center;
+        
+    }
+
+    .our-app p{
+        width: 300px;
+        font-size: 14px;
+        margin: 0 auto;
+        text-align: center;
+       
+    }
+    .descriptions-app{
+        width: 444px;
+        height: 78px;
+        font-size: 16px;
+       margin: 0 auto;
+    }
 }
