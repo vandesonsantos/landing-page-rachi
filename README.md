@@ -30,4 +30,5 @@ escrita(titulo);
 - [GitHub Pages](https://vandesonsantos.github.io/landing-page-rachi/)
 
 
+
 **Divirta-se!** 🚀
