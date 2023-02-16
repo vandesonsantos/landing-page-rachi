@@ -1,0 +1,35 @@
+.our-app{
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #EFF8FF;
+    justify-content: center;   
+}
+
+.our-app h3{
+    font-size: 32px;
+    margin-top: 117px;
+    margin-left: 135px;
+}
+
+.descriptions-app{
+    width: 444px;
+    height: 78px;
+    font-size: 16px;
+    margin-top: 10px;
+    margin-left: 135px;  
+}
+
+.social{
+    width: 165px;
+    height: 52px;
+    margin: 5px;
+}
+
+.social-div{
+    margin: 40px;
+    margin-left: 135px;
+}
+
+.applogo img{
+    width: 400px;
+}

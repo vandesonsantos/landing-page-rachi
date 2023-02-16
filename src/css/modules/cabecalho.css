@@ -1,0 +1,20 @@
+.cabecalho{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 18px 135px 18px 135px;
+    background-color: #ffffff;
+    flex-wrap: wrap;
+}
+
+.menu{
+    display: flex;
+}
+
+.menu li a{
+    font-family: 'Inter', sans-serif;
+    font-size: 18px;
+    color: #6E7275;
+    font-weight: 500;
+    margin-left: 30px;
+}

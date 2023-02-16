@@ -1,0 +1,87 @@
+@media(max-width:700px){
+    .cabecalho{
+        padding: 12px 0px 12px 24px;
+    }
+
+    .menu{
+        display: none;
+    }
+
+    .titulo-botton{
+        margin: 41px 0px 0px 24px;
+    }
+
+    .titulo-botton h1{
+        font-size: 24px;
+        width: 287px;
+        height: 90px;
+    }
+
+    .titulo-botton input{
+        width: 144px;
+        height: 32px;
+        margin-top: 16px;
+        padding: 8px 16px;
+    }
+
+    .imagem-working img{
+        width: 100%;
+    }
+
+    .como-funciona h2{
+        font-size: 24px;
+        margin-top: 40px;
+    }
+
+    .informacoes{
+        gap: 50px;
+        margin-top: 30px;
+    }
+
+}
+
+@media (max-width: 1142px){
+    .applogo {
+        display: none;
+    }
+
+    .social-div{
+        display: flex;
+        margin: 40px;
+        justify-content: center;
+    }
+
+    .imagem-working img{
+        margin: 70px 0px 0px 0px;
+    }
+
+    .our-app{
+        display: flex;
+        flex-wrap: wrap;
+        background-color: #EFF8FF;
+        justify-content: center;       
+    }
+
+    .our-app h3{
+        width: 350px;
+        font-size: 32px;
+        margin-top: 117px;
+        margin: 0 auto;
+        margin-bottom: 20px;
+        text-align: center;
+    }
+
+    .our-app p{
+        width: 300px;
+        font-size: 14px;
+        margin: 0 auto;
+        text-align: center;
+    }
+
+    .descriptions-app{
+        width: 444px;
+        height: 78px;
+        font-size: 16px;
+       margin: 0 auto;
+    }
+}

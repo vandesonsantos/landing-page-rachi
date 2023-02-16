@@ -1,0 +1,142 @@
+.title-plan{
+    display: flex;
+    justify-content: center;
+    font-size: 40px;
+    margin-top: 50px;
+    margin-bottom: 16px;
+}
+
+.title-container-our-plan{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.title-container-our-plan h2{
+    margin-top: 50px;
+    margin-bottom: 16px;
+    height: 18px;
+    font-size: 40px;
+}
+
+
+.title-container-our-plan p{
+    color: #000;
+    width: 400px;
+    margin-bottom: 96px;
+}
+
+.card-container span{
+  color: #293145;
+}
+
+.card-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.card{
+    display: flex;
+    flex-direction: column;
+    width: 370px;
+    height: 471px;
+    background-color: #EFF8FF;
+    margin: 15px;
+    border-radius: 10px;
+    align-items: center;
+}
+
+.card h3{
+    margin-top: 60px;
+    margin-bottom: 80px;
+}
+
+.value-style {
+    display: flex;
+    height: 70px;
+    width: 130px;
+    font-weight: bold;
+}
+
+.item1{
+    display: flex;
+    font-size: 20px;
+    align-items: start;
+}
+
+.item2{
+    display: flex;
+    font-size: 50px;
+    align-items: center;
+}
+
+.item3{
+    display: flex;
+    font-size: 26px;
+    align-items: end;
+}
+
+.text-card{
+    width: 300px;
+    height: 75px;
+    margin: 50px 35px 35px 35px;
+    color: 6E7275;
+}
+
+.emphasis{
+    margin-top: 14px;
+    margin-bottom: 32px;
+    display: flex;
+    background-color: #0F9AFE;
+    border-radius: 30px;
+    width: 165px;
+    height: 27px;
+    align-items: center;
+    justify-content: center;
+}
+
+.recommended span{
+    color: white;
+}
+
+.emphasis p{
+    margin: 0;
+}
+
+.recommended{
+    background-color: #293145;
+}
+
+.recommended p{
+    color: #DBDBDB;
+}
+
+.recommended h3{
+    color: white;
+    margin-top: 32px;
+    margin-bottom: 15px;
+}
+
+.recommended span{
+    color: white;
+    
+}
+
+.recommended h3{
+    font-size: 32px;
+}
+
+.card-container input{
+    margin-top: 0px;
+    margin-bottom: 64px;
+    width: 230px;
+    height: 43px;
+    border-radius: 50px;
+    background-color: #0F9AFE;
+    color: #EFF8FF;
+    border: 0;
+    padding: 16px 36px;
+    box-shadow: 1px 3px 4px rgba(19, 125, 224, 0.5);
+    cursor: pointer;
+}
