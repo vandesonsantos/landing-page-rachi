@@ -1,4 +1,4 @@
-# landing-page-rachi
+# Landing-Page-Rachi
 Landing Page Rachi - Desafios Codelândia
 
 [<img src="./\src\imagens/tela02-readme.gif">](https://vandesonsantos.github.io/landing-page-rachi/)
@@ -8,22 +8,22 @@ Landing Page Rachi - Desafios Codelândia
 - CSS
 - JS
 
-## Quer utiliar o script usado no projeto?
+## Quer Utilizar o Script Usado No Projeto?
 ```
-function escrita(tag) {
-    tituloArray = tag.innerHTML.split('')
-    tag.innerHTML = ''
+const titulo = document.querySelector('[data-titulo]')
+
+function escrita() {
+    tituloArray = titulo.innerHTML.split('')
+    titulo.innerHTML = ''
 
     tituloArray.forEach((letra, i) => {
         setTimeout(() => {
-            tag.innerHTML += letra
+            titulo.innerHTML += letra
         }, i * 75)
     })
 }
 
-const titulo = document.querySelector('[data-titulo]')
-
-escrita(titulo);
+escrita();
 ```
 
 ## Deploy Do Projeto
